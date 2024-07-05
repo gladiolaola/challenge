@@ -1,0 +1,63 @@
+* {
+    font-family: monospace;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/clouds-background-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    border-bottom: solid 3px black;
+}
+
+.weather-search {
+    border: solid 3px black;
+}
+
+#search-button {
+    background-color: #b1e46b;
+    border: solid 3px black;
+    border-left: 0;
+}
+
+.search-history {
+    border: solid 3px black;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    line-height: 22px;
+    padding: 14px 34px;
+}
+
+#clear-history {
+    border: solid 3px black;
+    background-color: #6a92f2;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    line-height: 22px;
+    padding: 14px 34px;
+}
+
+.card {
+    flex: content;
+}
+
+.today-card, .forecast-card{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0.3em 0.3em 0 0 #6a92f2;
+}
